@@ -5,13 +5,13 @@ userValue.addEventListener('submit',main);
 function main(e){
     e.preventDefault();
     const input1=e.target.inputname1.value;
-    gridCreation(input1);
+    gridTemplateCreation(input1);
     
 }
 
 reset.addEventListener('click',resetBtn);
 
-let gridCreation=function(x){
+function gridTemplateCreation(x){
     gridContainer.style.gridTemplateColumns=`repeat(${x},1fr)`;
     for (let i = 0; i < x*x; i++) {
         const gridItem = document.createElement("div");
@@ -21,10 +21,10 @@ let gridCreation=function(x){
         gridContainer.append(gridItem);
       }
 }
-gridCreation();
+gridTemplateCreation(5);
 
 function resetBtn(){
     gridContainer.innerHTML='';
-    gridCreation();
+    gridTemplateCreation(5);
 }
 
