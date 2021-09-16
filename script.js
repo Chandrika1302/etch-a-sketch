@@ -28,3 +28,4 @@ function resetBtn(){
     gridTemplateCreation(5);
 }
 
+//check it now
