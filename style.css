@@ -1,44 +1,54 @@
-body{
+body {
   margin: 0;
-  background-color: #c0baba;
+  background-color: #858181;
 }
-.header{
+.header {
   background-color: #3d4c41;
   color: #e6e6e6;
   padding: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   background-color: green;
-  --vwidth:30vw;
-  width:var(--vwidth);
+  --vwidth: 30vw;
+  width: var(--vwidth);
   height: var(--vwidth);
   margin: auto;
   background-color: rgb(3, 3, 3);
 }
-.darken{
-  background-color: rgb(128, 25, 114);
+.darken {
+  background-color: rgb(235, 235, 235);
 }
-.slider{
-  margin-bottom: 30px;
+.slider {
+  padding: 2px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
-.btn-div{
-  margin: auto;
+.btn-div {
   width: 100%;
   text-align: center;
 }
-.reset-btn{
+.reset-btn {
   background-color: #3d4c41;
   color: aliceblue;
   margin-top: 50px;
   padding: 10px 15px;
   font-size: large;
 }
-.user-details{
+.user-details {
   text-align: center;
+  font-size: 30px;
+  margin: auto;
+}
+.generate-btn {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
 }

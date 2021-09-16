@@ -7,15 +7,23 @@
   <body>
     <header class="header">Etch-a-Sketch</header>
     <form class="user-details" id="form">
-        <label for="user-input">Enter the value</label>
-        <input type="number" min="5" max="50" value="5" class="slider" id="user-value" name="inputname1">
-        <button>Generate</button>
+      <label for="user-input">Enter the value</label>
+      <input
+        type="number"
+        min="5"
+        max="50"
+        value="5"
+        class="slider"
+        id="user-value"
+        name="inputname1"
+      />
+      <button class="generate-btn">Generate</button><br />
     </form>
-    
+
     <div id="container" class="container"></div>
-<div class="btn-div">
-    <button id="reset-btn" class="reset-btn">Reset</button>
-</div>
+    <div class="btn-div">
+      <button id="reset-btn" class="reset-btn">Reset</button>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
